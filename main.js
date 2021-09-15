@@ -13,6 +13,7 @@ function generateMnemonic() {
   }
 }
 
+// generate seeds
 const generateSeed = (mnemonic) => {
   return BIP39.mnemonicToSeed(mnemonic);
 };
